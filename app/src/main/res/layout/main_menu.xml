@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a20182.game_animal_master.MainMenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+        <TextView
+            android:id="@+id/tv_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="15dp"
+            android:text="Animals"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_appname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="250dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/font_one"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textColor="#3399FF"
+            android:text="PLAY"
+            android:onClick="btnPlay"/>
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/play"
+            android:layout_alignStart="@+id/play"
+            android:layout_below="@+id/play"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/font_one"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textColor="#3399FF"
+            android:onClick="exit"
+            android:text="EXIT" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

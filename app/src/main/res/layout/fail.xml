@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_grey_game">
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_appname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="320dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/font_one"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textColor="#3399FF"
+        android:text="TRY AGAIN"
+        android:onClick="btnPlay"/>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/play"
+        android:layout_alignStart="@+id/play"
+        android:layout_below="@+id/play"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/font_one"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textColor="#3399FF"
+        android:text="EXIT"
+        android:onClick="exit"/>
+
+</RelativeLayout>

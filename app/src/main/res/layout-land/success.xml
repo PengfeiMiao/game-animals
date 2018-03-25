@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_green2">
+
+
+    <TextView
+        android:id="@+id/tv_Sscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/font_one"
+        android:text="Score:0"
+        android:textAllCaps="true"
+        android:textColor="#3399FF"
+        android:textSize="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="80dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/font_one"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textColor="#3399FF"
+        android:onClick="btnPlay"
+        android:text="CONTINUE" />
+
+</RelativeLayout>
